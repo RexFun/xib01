@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *helloLable;
+- (IBAction)helloButton:(UIButton *)sender;
 
 @end
 

@@ -24,4 +24,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)helloButton:(UIButton *)sender {
+    self.helloLable.frame = CGRectMake(10, 50, 300, 40);
+    self.helloLable.text = @"Hello World!";
+}
 @end
